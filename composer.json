@@ -1,0 +1,22 @@
+{
+	"name": "myFK PHP",
+	"description": "PHP Framework",
+	"type": "Framework",
+	"keywoks":[
+		"PHP","PHP Framework"
+	],
+	"require":{
+		"php":">= 5.4.0",
+		"filp/whoops":"*",
+		"monolog/monolog": "*",
+		"symfony/var-dumper":"*",
+		"catfan/medoo":"*",
+		"twig/twig": "*"
+	},
+	"repositories": {
+	    "packagist": {
+	        "type": "composer",
+	        "url": "https://packagist.phpcomposer.com"
+	    }
+	}
+}
